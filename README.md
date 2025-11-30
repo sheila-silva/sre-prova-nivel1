@@ -11,7 +11,9 @@ A aplicação é um serviço web simples em Flask, contendo os seguintes endpoin
 
 ⚠️ Captura de erros e atualização de métricas
 
-🔧 Nesta aplicação temos:
+
+
+**🔧 Nesta aplicação temos:**
 
 🐳 Containerização com Docker
 
@@ -27,7 +29,9 @@ A aplicação é um serviço web simples em Flask, contendo os seguintes endpoin
 
 🔄 Processo seguro de Rollback
 
-🛠️ Tecnologias:
+
+
+**🛠️ Tecnologias:** 
 
 🐧 Linux Ubuntu
 
