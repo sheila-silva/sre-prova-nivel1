@@ -36,6 +36,8 @@ def health():
 @app.route('/metrics')
 def get_metrics():
     """Endpoint com métricas da aplicação"""
+    metrics["total_requests"] += 1
+    metrics["successful_requests"] += 1
     uptime_seconds = time.time() - metrics["start_time"]
     
     # Calcula taxa de sucesso
