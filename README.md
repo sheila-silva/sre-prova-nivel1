@@ -10,9 +10,8 @@ A aplicação é um serviço web simples em Flask, contendo os seguintes endpoin
 📊 /metrics → métricas internas (uptime, taxa de sucesso, contadores)
 
 ⚠️ Captura de erros e atualização de métricas
-
-
-
+/
+/
 **🔧 Nesta aplicação temos:**
 
 🐳 Containerização com Docker
@@ -28,9 +27,8 @@ A aplicação é um serviço web simples em Flask, contendo os seguintes endpoin
 🚀 Processo completo de Deploy automatizado
 
 🔄 Processo seguro de Rollback
-
-
-
+/
+/
 **🛠️ Tecnologias:** 
 
 🐧 Linux Ubuntu
