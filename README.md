@@ -66,7 +66,7 @@ This repository contains a simple web application (an API) built with Flask that
 <br>
 <br>
 <br>
-**🔧 In this application we have:**
+**🔧 In this application have:**
 
 🐳 Containerization with Docker
 
