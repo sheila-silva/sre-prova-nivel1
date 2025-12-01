@@ -1,7 +1,11 @@
-# 🚀 sre-prova-nivel1
+# 🚀 Reliability-app
 
-Este repositório contém uma aplicação Python/Flask totalmente instrumentada com práticas de SRE (Site Reliability Engineering) e DevOps.
-A aplicação é um serviço web simples em Flask, contendo os seguintes endpoints:
+Este repositório contém uma aplicação web simples (uma API) em Flask que expõe duas rotas e faz um controle básico de requisições, esta API está instrumentada com práticas de SRE (Site Reliability Engineering) e DevOps.
+<br>
+<br>
+<br>
+<br>
+**A aplicação contém os seguintes endpoints:**
 
 🏠 Endpoint raiz (/) → retorna versão e contador de requisições
 
@@ -33,7 +37,7 @@ A aplicação é um serviço web simples em Flask, contendo os seguintes endpoin
 <br>
 <br>
 <br>
-**🛠️ Tecnologias:** 
+**🛠️ Tecnologias Utilizadas:** 
 
 🐧 Linux Ubuntu
 
@@ -42,3 +46,56 @@ A aplicação é um serviço web simples em Flask, contendo os seguintes endpoin
 🤖 Github Actions
 
 🐍 Python Flask
+
+--------
+--------
+
+# 🚀 Reliability-app
+
+This repository contains a simple web application (an API) built with Flask that exposes two routes and performs basic request tracking, this API is instrumented with SRE (Site Reliability Engineering) and DevOps practices. 
+<br>
+<br>
+<br>
+<br>
+**The application contains the following endpoints:**
+
+🏠 Root endpoint (/) → returns version and request counter
+
+❤️ /health → health check
+
+📊 /metrics → internal metrics (uptime, success rate, counters)
+
+⚠️ Error capturing and metrics updating 
+<br>
+<br>
+<br>
+<br>
+**🔧 In this application we have:**
+
+🐳 Containerization with Docker
+
+🧪 Automated tests with Pytest
+
+🤖 CI pipeline with GitHub Actions
+
+📈 Internal application metrics
+
+🩺 Monitoring via shell script
+
+🚀 Fully automated deployment process
+
+🔄 Safe rollback process 
+<br>
+<br>
+<br>
+<br>
+**🛠️ Technologies Used:**
+
+🐧 Linux Ubuntu
+
+🐳 Docker
+
+🤖 GitHub Actions
+
+🐍 Python Flask
+
